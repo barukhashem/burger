@@ -1,3 +1,7 @@
 body {
-    background-color: aqua;
+    background-color: lightyellow;
+}
+
+.change-devoured {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

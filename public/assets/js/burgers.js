@@ -3,9 +3,9 @@ $(function () {
   $(".change-devoured").on("click", function (event) {
     console.log("update clicked")
     var id = $(this).data("id");
-    console.log("id: "+id);
+    console.log("id: " + id);
     var newDevour = $(this).data("newdevour");
-    console.log("newDevour: " +newDevour);
+    console.log("newDevour: " + newDevour);
 
     var newDevourState = {
       devoured: newDevour
@@ -45,19 +45,4 @@ $(function () {
       }
     );
   });
-
-  // $(".delete-burger").on("click", function (event) {
-  //   var id = $(this).data("id");
-
-  //   // Send the DELETE request.
-  //   $.ajax("/api/burgers/" + id, {
-  //     type: "DELETE"
-  //   }).then(
-  //     function () {
-  //       console.log("deleted burger", id);
-  //       // Reload the page to get the updated list
-  //       location.reload();
-  //     }
-  //   );
-  // });
 });
