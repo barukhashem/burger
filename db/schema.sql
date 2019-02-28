@@ -13,11 +13,8 @@ PRIMARY KEY (id)
 );
 
 -- Insert a set of records.
-INSERT INTO burgers (burger_name) VALUES ("Big Boy Burger");
-INSERT INTO burgers (burger_name) VALUES ("Southwest Burger");
-INSERT INTO burgers (burger_name) VALUES ("Philly Cheese Steak Burger");
-INSERT INTO burgers (burger_name) VALUES ("Greek Gyro Burger");
 INSERT INTO burgers (burger_name) VALUES ("Colossal Burger");
-INSERT INTO burgers (burger_name) VALUES ("Ultra Mega Burger");
-INSERT INTO burgers (burger_name) VALUES ("Pizza Burger");
+INSERT INTO burgers (burger_name) VALUES ("Barbeque Burger");
+INSERT INTO burgers (burger_name) VALUES ("Hawaiian Burger");
+INSERT INTO burgers (burger_name) VALUES ("Jalapeño Burger");
 INSERT INTO burgers (burger_name) VALUES ("Veggie Burger");

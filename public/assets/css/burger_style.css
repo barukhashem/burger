@@ -1,7 +1,71 @@
 body {
-    background-color: lightyellow;
+    background: url("https://wallpaperplay.com/walls/full/c/3/e/84329.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 60px;
+    color: darkgreen;
+}
+
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+    margin-left: 135px;
 }
 
 .change-devoured {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgreen;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s; transform: 2s;
+}
+
+.change-devoured:hover {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    transform: translate(2px, 2px);
+    cursor: pointer;
+    transition: box-shadow 1s; transform: 2s;
+}
+
+ul {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    color: black;
+    list-style: none;
+    margin-left: 150px;
+}
+
+.form-group {
+    font-family: 'Luckiest Guy', cursive;
+    margin-left: 190px;
+    font-size: 20px;
+}
+
+#create-burger-btn {
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgreen;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s; transform: 2s;
+    margin-left: 225px;
+}
+
+#create-burger-btn:hover {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    transform: translate(2px, 2px);
+    cursor: pointer;
+    transition: box-shadow 1s; transform: 2s;
+    margin-left: 225px;
 }
