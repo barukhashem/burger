@@ -7,7 +7,7 @@
 
 In this assignment, I created a colorful burger restaurant logger application called `Bodacious Burgers` that lets users input the names of burgers they would like to eat.
 
-When the user submits a new burger's name, the app displays the burger with an adjacent button saying "`Ready To Eat!`" on the "Try Our Most Popular Burgers" area of the page. When the "Ready To Eat!" button is clicked, the burger moves to the "And If You're Still Hungry...." area of the page with an adjacent button saying "`Make Me Another!`" When the "Make Me Another!" button is clicked, the burger moves back to the "Try Our Most Popular Burgers" area of the page. The app stores every burger in a database, whether eaten or not.
+When the user submits a new burger's name by clicking the `Create Burger` button, the app displays the burger with an adjacent button saying "`Ready To Eat!`" on the "Try Our Most Popular Burgers" area of the page. When the "Ready To Eat!" button is clicked, the burger moves to the "And If You're Still Hungry...." area of the page with an adjacent button saying "`Make Me Another!`" When the "Make Me Another!" button is clicked, the burger moves back to the "Try Our Most Popular Burgers" area of the page. The app stores every burger in a database, whether eaten or not.
 
 I created the app with MySQL, Node, Express, Handlebars, and an ORM. Following the MVC (Model View Controller) design pattern, I used Node and MySQL to query and route data in my app and Handlebars to generate my HTML. Lastly, I deployed the app to Heroku.
 
@@ -51,15 +51,7 @@ I created the app with MySQL, Node, Express, Handlebars, and an ORM. Following t
 
 3. In the db folder, I created a seeds.sql file and wrote INSERT INTO queries to populate the burgers table with at least three entries.
 
-4. I ran the schema.sql and seeds.sql files into the mysql server from the command line.
-
-5. In the db folder of the app, I started the MySQL command line tool and login: mysql -u root -p.
-
-6. With the mysql> command line tool running, I entered the command source schema.sql to run my schema file and all of the queries in it, thereby creating my database.
-
-7. I inserted the entries defined in seeds.sql by running the file: source seeds.sql.
-
-8. I closed out of the MySQL command line tool via the command `exit.`
+4. I ran the schema.sql and seeds.sql files into the mysql server from the command line, thereby creating my database.
 
 
 `Config Setup`
@@ -127,7 +119,7 @@ I created the app with MySQL, Node, Express, Handlebars, and an ORM. Following t
 7. In the burgers folder, I created the burger_block.handlebars file.
 
 
-### Installation
+### App Installation
 
 1. To run the application locally, first clone this repository with the following command:
 
@@ -135,8 +127,8 @@ I created the app with MySQL, Node, Express, Handlebars, and an ORM. Following t
 
 2. Install the application dependencies:
 
-`cd burger`
-`npm install`
+     * `cd burger`
+     * `npm install`
 
 3. Run the node server locally:
 
